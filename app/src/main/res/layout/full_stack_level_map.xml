@@ -7,12 +7,12 @@
     android:background=" #BEB6DC">
 
     <ImageView
-        android:id="@+id/image6"
+        android:id="@+id/mountain"
         android:layout_width="282dp"
         android:layout_height="382dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
-        android:layout_marginBottom="304dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="296dp"
         android:contentDescription="@string/mountain"
         android:rotation="0"
         android:scaleX="1.5"
@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/image5"
+        android:id="@+id/bg_hill"
         android:layout_width="663dp"
         android:layout_height="616dp"
         android:layout_marginTop="48dp"
@@ -30,11 +30,11 @@
         android:scaleX="2"
         android:scaleY="1"
         android:src="@drawable/circle"
-        app:layout_constraintEnd_toEndOf="@+id/image4"
-        app:layout_constraintTop_toBottomOf="@+id/button12" />
+        app:layout_constraintEnd_toEndOf="@+id/mission_title"
+        app:layout_constraintTop_toBottomOf="@+id/button_level4" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_level1"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="165dp"
@@ -51,36 +51,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button12"
+        app:layout_constraintTop_toBottomOf="@+id/button_level4"
         app:strokeColor="#B70000"
         app:strokeWidth="10dp" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/button_level2"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginStart="315dp"
-        android:layout_marginLeft="315dp"
-        android:layout_marginTop="267dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="384dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
         android:background="@drawable/circular_button"
         android:text="@string/_2"
         android:textColor="#000000"
         android:textSize="36sp"
         app:backgroundTint="#FFFFFF"
         app:iconTint="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.288"
         app:strokeColor="#B70000"
         app:strokeWidth="10dp" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/button_level3"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="28dp"
@@ -101,10 +95,10 @@
         app:strokeWidth="10dp" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/button_level4"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="152dp"
         android:layout_marginRight="152dp"
         android:background="@drawable/circular_button"
@@ -119,7 +113,7 @@
         app:strokeWidth="10dp" />
 
     <ImageView
-        android:id="@+id/image1"
+        android:id="@+id/line1_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
@@ -131,11 +125,11 @@
         android:scaleY="0.6"
         android:src="@drawable/line"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button10"
+        app:layout_constraintEnd_toStartOf="@+id/button_level2"
         app:tint="#E7DFFF" />
 
     <ImageView
-        android:id="@+id/image2"
+        android:id="@+id/line3_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -146,13 +140,13 @@
         android:scaleY="0.6"
         android:src="@drawable/line"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button11"
+        app:layout_constraintStart_toEndOf="@+id/button_level3"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.888"
         app:tint="#2D2773" />
 
     <ImageView
-        android:id="@+id/image3"
+        android:id="@+id/line2_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="184dp"
@@ -165,12 +159,12 @@
         android:scaleY="1"
         android:src="@drawable/line"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/button11"
+        app:layout_constraintStart_toStartOf="@+id/button_level3"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="#E7DFFF" />
 
     <ImageView
-        android:id="@+id/image4"
+        android:id="@+id/mission_title"
         android:layout_width="470dp"
         android:layout_height="342dp"
         android:layout_marginEnd="4dp"
@@ -183,7 +177,7 @@
         android:src="@drawable/ic_customshape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/image5"
+        app:layout_constraintTop_toTopOf="@+id/bg_hill"
         app:layout_constraintVertical_bias="0.553" />
 
     <TextView
@@ -193,7 +187,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginBottom="16dp"
-        android:fontFamily="sans-serif-thin"
+        android:fontFamily="@font/dosis_bold"
         android:text="@string/mission_full_stack_development"
         android:textColor="#FFFFFF"
         android:textSize="42sp"

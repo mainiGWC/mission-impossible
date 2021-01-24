@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:layout_width="282dp"
+        android:layout_height="374dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginRight="172dp"
+        android:contentDescription="endscene"
+        android:rotation="360"
+        android:scaleX="2.9"
+        android:scaleY="2.5"
+        android:src="@drawable/ic_drawing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="147dp"
+        android:layout_height="40dp"
+        android:text="@string/new_message"
+        android:textSize="12sp"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+</androidx.constraintlayout.widget.ConstraintLayout>

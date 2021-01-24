@@ -24,5 +24,13 @@ public class FullStackLevelMap extends AppCompatActivity{
 
         getWindow().setLayout((int) (width), (int) (height));
 
+        Button j = (Button) findViewById(R.id.button_level1);
+        j.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(FullStackLevelMap.this, Level1.class));
+            }
+
+        });
     }
 }

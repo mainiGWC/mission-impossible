@@ -8,63 +8,84 @@
     tools:context=".MainActivity">
 
 
+    <Button
+        android:id="@+id/button_level"
+        android:layout_width="357dp"
+        android:layout_height="139dp"
+        android:background="@drawable/circular_button"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:backgroundTint="#5B2E94"
+        app:iconTint="#5B2E94"
+        app:strokeColor="#00B70000"
+        app:strokeWidth="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-120dp"
+        tools:layout_editor_absoluteY="-58dp" />
+
+    <Button
+        android:id="@+id/button_level5"
+        android:layout_width="388dp"
+        android:layout_height="170dp"
+        android:background="@drawable/circular_button"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:backgroundTint="#A072DA"
+        app:elevation="5dp"
+        app:iconTint="#00FFFFFF"
+        app:strokeColor="#00B70000"
+        app:strokeWidth="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="-89dp" />
+
     <ImageButton
-        android:layout_width="341dp"
-        android:layout_height="468dp"
+        android:layout_width="345dp"
+        android:layout_height="417dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/drop_shadow_rectangle"
+        android:checkable="false"
+        android:clickable="false"
+        android:foreground="@drawable/drop_shadow_rectangle"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.441"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="414dp"
+        android:layout_height="209dp"
         android:background="@drawable/rectangle"
         android:checkable="false"
         android:clickable="false"
         android:foreground="@drawable/rectangle"
-        app:backgroundTint="#FFFFFF"
+        app:backgroundTint="#2C5B2E94"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="157dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="610dp" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/dosis_bold"
-        android:text="@string/app_name"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#000000"
-        android:textSize="50sp"
-        android:typeface="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.279" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="180dp"
-        android:layout_height="63dp"
-        android:background="@drawable/button_drop_shadow"
-        android:fontFamily="@font/dosis_bold"
-        android:text="@string/sign_in_btn"
-        android:textSize="25sp"
-        app:backgroundTint="#5B2E94"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
-
-    <CheckBox
-        android:id="@+id/checkBox1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/dosis_extralight"
-        android:text="@string/i_agree_to_the_terms_of_service_and_privacy_policy"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.404"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683" />
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="414dp"
+        android:layout_height="209dp"
+        android:background="@drawable/rectangle"
+        android:checkable="false"
+        android:clickable="false"
+        android:foreground="@drawable/rectangle"
+        app:backgroundTint="#2C5B2E94"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="645dp" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -72,33 +93,18 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/dosis_extralight"
         android:text="@string/remember_me"
+        android:textSize="16ps"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintHorizontal_bias="0.177"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-light"
-        android:text="@string/sign_up_prompt"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:typeface="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.112"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.92" />
+        app:layout_constraintVertical_bias="0.537" />
 
     <EditText
         android:layout_width="183dp"
         android:layout_height="58dp"
-        android:layout_alignBottom="@+id/button2"
+        android:layout_alignBottom="@+id/sign_in"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -111,18 +117,18 @@
         android:inputType="textPassword"
         android:textColorHighlight="#000000"
         android:textColorLink="#000000"
-        android:textSize="30sp"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.232"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.534" />
+        app:layout_constraintVertical_bias="0.447" />
 
     <EditText
         android:layout_width="125dp"
         android:layout_height="59dp"
-        android:layout_alignBottom="@+id/button2"
+        android:layout_alignBottom="@+id/sign_in"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -135,24 +141,96 @@
         android:inputType="textPersonName"
         android:textColorHighlight="#000000"
         android:textColorLink="#000000"
-        android:textSize="30sp"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintHorizontal_bias="0.186"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.447" />
+        app:layout_constraintVertical_bias="0.363" />
 
-    <Button
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/custom_rounded_corners"
-        android:text="Sign up!"
+        android:fontFamily="@font/dosis_bold"
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948" />
+        app:layout_constraintVertical_bias="0.266" />
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="180dp"
+        android:layout_height="63dp"
+        android:background="@drawable/drop_shadow_button"
+        android:fontFamily="@font/dosis_bold"
+        android:text="@string/sign_in_btn"
+        android:textSize="22sp"
+        app:backgroundTint="#5B2E94"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dosis_extralight"
+        android:text="@string/i_agree_to_the_terms_of_service_and_privacy_policy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/sign_up_prompt"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="@string/sign_up_btn"
+        android:textSize="12sp"
+        app:backgroundTint="#5B2E94"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954"
+        app:strokeColor="#5B2E94"
+        app:strokeWidth="5dp" />
+
+    <corners
+        android:bottomLeftRadius="2dp"
+        android:bottomRightRadius="2dp"
+        android:topLeftRadius="0dp"
+        android:topRightRadius="0dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

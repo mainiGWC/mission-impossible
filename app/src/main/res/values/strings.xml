@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Login</string>
+    <string name="_logo">Logo</string>
 
 
         <string name="sign_in_btn">Sign In</string>
@@ -33,5 +34,7 @@
     <string name="back_end_developmnt">bkendbtn</string>
     <string name="full_stack_developer">fullstkbtn</string>
     <string name="action_settings">actsettings</string>
-
+    <string name="new_message">New Message!</string>
+    <string name="sending_failed_computer">sending failed computer</string>
+    <string name="sign_up">Sign up!</string>
 </resources>

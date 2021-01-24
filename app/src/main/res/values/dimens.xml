@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
     <dimen name="app_bar_height">180dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
+=======
+    <dimen name="fab_margin2" tools:ignore="DuplicateDefinition">8dp</dimen>
+>>>>>>> 6410987fb41d760025450244d3786a0bd68d5724
 </resources>
