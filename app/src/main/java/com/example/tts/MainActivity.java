@@ -9,8 +9,6 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
 
-import org.w3c.dom.Text;
-
 public class MainActivity extends AppCompatActivity {
 
     @SuppressLint("MissingSuperCall")
@@ -18,14 +16,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //DisplayMetrics wh = new DisplayMetrics();
+        DisplayMetrics wh = new DisplayMetrics();
 
-        //getWindowManager().getDefaultDisplay().getMetrics(wh);
+        getWindowManager().getDefaultDisplay().getMetrics(wh);
 
-        //double width = wh.widthPixels;
-        //double height = wh.heightPixels;
+        double width = wh.widthPixels;
+        double height = wh.heightPixels;
 
-        //getWindow().setLayout((int) (width)*12, (int) (height)*30);
+        getWindow().setLayout((int) (width), (int) (height));
 
         // for opening screen 2 from screen 1
         Button j = (Button) findViewById(R.id.sign_up);

@@ -1,11 +1,8 @@
 package com.example.tts;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
-import android.view.View;
-import android.widget.Button;
 
 public class CreateAccount extends Activity {
 
@@ -21,15 +18,7 @@ public class CreateAccount extends Activity {
         double width = wh.widthPixels;
         double height = wh.heightPixels;
 
-        getWindow().setLayout((int) (width), (int) (height));
-
-        Button k = (Button) findViewById(R.id.button2);
-        k.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(CreateAccount.this, MainActivity.class));
-            }
-        });
+        getWindow().setLayout((int) (width*.9), (int) (height*.4));
 
 
 

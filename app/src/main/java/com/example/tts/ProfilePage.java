@@ -21,7 +21,7 @@ public class ProfilePage extends Activity {
         double width = wh.widthPixels;
         double height = wh.heightPixels;
 
-        getWindow().setLayout((int) (width*.9), (int) (height*1));
+        getWindow().setLayout((int) (width*.9), (int) (height*.4));
         Button jjj = (Button) findViewById(R.id.button4);
         jjj.setOnClickListener(new View.OnClickListener() {
             @Override
