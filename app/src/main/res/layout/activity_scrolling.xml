@@ -28,7 +28,7 @@
             android:autofillHints=""
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/choose_which_skill_set_you_d_like_to_learn" />
+            android:text="Choose which skill set(s) you would like to learn." />
 
         <View
             android:id="@+id/divider"
@@ -70,7 +70,7 @@
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/front_end_development"
+        android:text="Front-end Development"
         app:layout_anchor="@+id/toolbar_layout"
         app:layout_anchorGravity="center" />
 
@@ -79,7 +79,7 @@
         android:id="@+id/button5"
         android:layout_width="411dp"
         android:layout_height="wrap_content"
-        android:text="@string/back_end_developmnt"
+        android:text="Back-end Development"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="center" />
 

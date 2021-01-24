@@ -2,9 +2,8 @@
     <string name="app_name">Login</string>
     <string name="_logo">Logo</string>
 
-
-        <string name="sign_in_btn">Sign In</string>
-<string name="sign_up_btn">Sign Up</string>
+    <string name="sign_in_btn">Sign In</string>
+    <string name="sign_up_btn">Sign Up</string>
     <string name="sign_up_prompt">New to Us?</string>
     <string name="remember_me">Remember me</string>
     <string name="username">username</string>

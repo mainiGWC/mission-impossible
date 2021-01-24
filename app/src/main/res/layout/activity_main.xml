@@ -117,7 +117,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/dosis_extralight"
         android:text="@string/remember_me"
-        android:textSize="16ps"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.177"
