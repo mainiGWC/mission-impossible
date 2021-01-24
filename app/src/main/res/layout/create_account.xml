@@ -97,8 +97,8 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="373dp"
-        android:layout_height="401dp"
+        android:layout_width="365dp"
+        android:layout_height="388dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="32dp"
@@ -108,30 +108,31 @@
         android:background="@drawable/drop_shadow_rectangle"
         android:checkable="false"
         android:clickable="false"
+        android:contentDescription="@string/todo"
         android:foreground="@drawable/drop_shadow_rectangle"
         app:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.238"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609"
+        app:layout_constraintVertical_bias="0.533"
         tools:ignore="MissingConstraints"
-        android:contentDescription="@string/todo"
         tools:targetApi="m" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/create_account"
+        android:text="@string/submit"
         android:textSize="25sp"
         app:backgroundTint="#5B2E94"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.718" />
+        app:layout_constraintVertical_bias="0.69" />
 
     <EditText
         android:layout_width="322dp"
