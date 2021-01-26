@@ -29,3 +29,5 @@ We would be interested in broadening the functionality of the app, e.g. supporti
 
 While it is typically easy to part with any hackathon project, this particular one is very close to us. We wish we could go back to learn coding from an app like ours, so we believe it has the potential to help someone like us out there. This team that was so mysteriously put together works well together. From screen sharing to figure out all aspects of GitHub to laughing at our own silly doodles and memes, we hope to bring the fun we had together to you. 
 
+## Figma Prototype
+https://www.figma.com/file/w0yRWaa5bZtDbsdafZTt34/MI?node-id=0%3A1
